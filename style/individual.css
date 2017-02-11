@@ -1,0 +1,162 @@
+/* css reset */
+
+html {
+    height: 100%;
+}
+
+body {
+    padding: 90px 0px 50px;
+    margin: 0px;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background: #EDF8FA ;
+}
+
+
+/* css header */
+.background_img{
+	opacity: 0.3;
+	width:100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+._name {
+    color: #fff;
+    z-index: 20;
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 160px;
+    top: 14px;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #AAC;
+    box-shadow: 0px 1px 5px #AAC;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header .img-box {
+    height: 60px;
+    width: 60px;
+    margin: 0px 0px 0px 50px;
+}
+
+.header img {
+    height: 50px;
+    width: auto;
+}
+.header h3{
+    line-height: 50px;
+    margin: 0px 20px;
+    color: darkslateblue;
+}
+
+.header .img-box,
+.header h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* css foot */
+
+.foot {
+    height: 40px;
+    background: #588EC5;
+    text-align: center;
+    border-top: 2px solid #4859A6;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.foot span {
+    line-height: 40px;
+    margin: 0px;
+}
+
+
+/* css body */
+
+.body {
+        width: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0px;
+    font: 16px/20px "Times New Roman";
+        top: 50px;
+}
+
+.body .indiv-info,
+.body .indiv-class-info {
+    box-sizing: border-box;
+    position: absolute;
+    padding: 10px 18px;
+}
+
+.body .indiv-info {
+    width: 20%;
+    left: 0px;
+    top: 0px;
+}
+
+
+.body .indiv-class-info {
+    padding: 10px 30px;
+    height: 100%;
+    width: 80%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: white;
+}
+.nav{
+    position: absolute;
+    top: -48px;
+    z-index: 30;
+    font-size: 20px;
+}
+
+.submit_choosed_class{
+	position: absolute;
+    right: 78px;
+    margin: 10px;
+    top: 10px;
+}
+form.course_entry{
+	width: 400px;
+	margin: 20px auto;
+}
+form.course_entry .input-group{
+	margin: 20px 10px;
+}
+form.course_entry .btn{
+	    margin: 10px;
+}
+form.modify_score{
+	width: 400px;
+	margin: 20px auto;
+}
+form.modify_score .btn{
+	height: 30px;
+}
+.scroll{
+	overflow-y: scroll;
+}
+
+#tab3{
+    margin: 120px auto;
+}

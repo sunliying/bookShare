@@ -1,0 +1,78 @@
+body{
+	background: url("../img/pic17.jpg") no-repeat;
+	background-size: 100% auto;
+	margin: 0px;
+	padding: 0px;
+}
+.contentbox{
+	width: 1000px;
+	margin: 0px auto;
+}
+.header{
+	width: 100%;
+    height: 50px;
+    background-color: #AAC;
+    box-shadow: 0px 1px 5px #AAC;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header .img-box {
+    height: 60px;
+    width: 60px;
+    margin: 0px 26px 0px 414px;
+}
+
+.header img {
+    height: 50px;
+    width: auto;
+}
+.header h3{
+    text-align: center;
+    line-height: 50px;
+    margin: 0px 20px;
+    color: darkslateblue;
+}
+
+.header .img-box,
+.header h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+.header .reg_log{
+    position: absolute;
+    right: 140px;
+    top: 17px;
+}
+.login-box{
+	width: 600px;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	    margin-top: 71px;
+    padding: 5px 20px;
+	background-color: rgba(230,240,230,0.6);
+}
+.login-box .input-group{
+	margin: 14px 5px;
+}
+.login-box .input-group input[type="radio"]{
+	margin: 5px 20px;
+	height: 20px;
+	width: auto;
+	vertical-align: middle;
+}
+.login-box .submit{
+	text-align: center;
+}
+.login-box .submit button{
+	margin: 10px 30px;
+}
+.login-box .pwdiff{
+	color: red;
+	margin-left: 100px;
+}
